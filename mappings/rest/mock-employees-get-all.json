@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/employees"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "[{\"id\": 1,\"title\": \"Practice Director\",\"name\": \"Fake Name 1\",\"active\": true},{\"id\": 2,\"title\": \"Test Engineer\",\"name\": \"Fake Name 2\",\"active\": false},{\"id\": 3,\"title\": \"Consultant\",\"name\": \"Mukesh Kumar\",\"active\": false},{\"id\": 4,\"title\": \"Test Engineer \",\"name\": \"Paul\",\"active\": false},{\"id\": 5,\"title\": \"Sr Test Engineer \",\"name\": \"John\",\"active\": false},{\"id\": 6,\"title\": \"Analyst\",\"name\": \"Jucy\",\"active\": false},{\"id\": 52,\"title\": \"API Testing\",\"name\": \"Faker Data\",\"active\": true},{\"id\": 102,\"title\": \"New Tester\",\"name\": \"Lucy\",\"active\": false}]"
+  }
+}

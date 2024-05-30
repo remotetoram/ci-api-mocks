@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/services/data/v56.0/sobjects/Account/",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "okta-accesstoken": {
+        "equalTo": "eyJraWQiOiI2ZTdPNHpMdThqckMtZW5aUHhMVS0yZ2lIUW5xY3ZTMTRzQVNrXy1kbXJNIiwiYWxnIjoiUlMyNTYifQ"
+      }
+    }
+    
+    
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": 
+    {
+      "id" : "001D000000IqhSLIAZ",
+      "errors" : [ ],
+      "success" : true
+    }
+  }
+}

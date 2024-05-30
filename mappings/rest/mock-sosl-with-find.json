@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/services/data/v56.0/query/?q=FIND",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "okta-accesstoken": {
+        "equalTo": "eyJraWQiOiI2ZTdPNHpMdThqckMtZW5aUHhMVS0yZ2lIUW5xY3ZTMTRzQVNrXy1kbXJNIiwiYWxnIjoiUlMyNTYifQ"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": 
+    {
+      "searchRecords" : [ {
+        "attributes" : {
+          "type" : "Account",
+          "url" : "/services/data/v56.0/sobjects/Account/001D000000IqhSLIAZ"
+        },
+        "Id" : "001D000000IqhSLIAZ"
+      }, {
+        "attributes" : {
+          "type" : "Account",
+          "url" : "/services/data/v56.0/sobjects/Account/001D000000IomazIAB"
+        },
+        "Id" : "001D000000IomazIAB"
+      } ]
+    }
+  }
+}
